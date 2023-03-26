@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header  */
+header{
+   
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)) ,url(img/macbook_mouse.jpg) ;
+    background-position: center;
+    border-bottom: 5px solid white ;
+    
+}
+/* navbar  */
+.navbar{
+    padding: 0px 10px;
+    /* border: 2px solid white; */
+    
+}
+.navbar li{
+    display: inline-block;
+    
+    margin: 20px 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.navbar li a:hover{
+    color: rgb(245, 142, 142);
+    transition: 1s;
+    /* border-bottom: 2px solid rgb(245, 142, 142);; */
+}
+.navbar li a:active{
+    color: red;
+}
+.text-center{
+    text-align: center;
+
+}
+.name-social{
+    
+    margin-top: 10vh;
+    /* border: 2px solid red; */
+}
+
+.name{
+    display: inline;
+    font-size: 1.5rem;
+    color: white;
+    /* border: 2px solid red; */
+   
+    /* margin: 10px; */
+    
+}
+
+.name:hover{
+    color: rgb(245, 142, 142);
+}
+
+/* about  */
+.aboutHeading{
+    
+    color: rgb(245, 142, 142);
+    font-size: 2.2rem;
+}
+#about{
+    padding-top: 10px;
+    height: 100vh;
+    /* border: 2px solid pink; */
+    background-color: #d9d9db;
+}
+.socials li{
+    display: inline-block;
+    
+    margin: 20px 5px;
+}
+.socials li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.socials li a:hover{
+    text-decoration: none;
+    color: rgb(245, 142, 142);
+    font-size: 1.5rem;
+}
+#my-img{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    
+    margin-bottom: 40px;
+   
+   
+    
+    
+}
+#my-img img{
+    height: 100%;
+    width: 100%;
+    
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 5px solid white ;
+}
+.aboutPara{
+    color: #01030c;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin: 10px 200px;
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+
+}
+
+
+/* skill  */
+.skillheading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 2px solid red; */
+    color: rgb(245, 142, 142);
+    font-size: 2.2rem;
+}
+#skills{
+    background-color: #F4EAF6;
+    
+    height: 60vh; 
+}
+.skillscontent{
+    height: 70vh;
+    /* border: 2px solid purple; */
+    
+    margin-bottom: 20px;
+    margin: 10px 50px;
+}
+.skillscontent progress{
+   /* padding: 15px; */
+   
+   height: 60px;
+   margin: 0px 20px;
+   
+    /* border: 2px solid blue; */
+}
+.top{
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.bottom{
+    margin-top: 30px;
+    /* border: 2px solid red; */
+}
+
+/* contact  */
+#Contact{
+    height: 100vh;
+    background: linear-gradient(to bottom left ,rgb(117, 45, 117) ,rgb(59, 59, 177));
+}
+.contactheading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: 2px solid red; */
+    color: rgb(245, 142, 142);
+    font-size: 2.2rem;
+}
+.form{
+    height: 0vh;
+    /* border: 2px solid blue; */
+    display: inline-block;
+    width: 40%;
+}
+.form input{
+    display: block;
+    width: 80%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 20px auto 10px auto;
+    padding: 10px ;
+    /* border: 2px solid red; */
+}
+.getintouch{
+    height: 70vh;
+    width: 50%;
+    color: white;
+    display: inline-block;
+    /* border: 2px solid purple; */
+    vertical-align: top;
+}
+.text-area{
+    width: 80%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.getcontent{
+    margin: 50px;
+}
+#send-button{
+    background-color: transparent;
+    border: 1px solid white;
+    display: block;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+::placeholder{
+    color: white;
+}
+#send-button:hover{
+    color: black;
+    background-color: white;
+}
+#myaddress{
+    margin-top: 20px;
+}
